@@ -8,3 +8,7 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+
+.turkeu{
+  color: green;
+}
