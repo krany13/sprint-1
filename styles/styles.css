@@ -6,5 +6,418 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
+    "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+}
+/* 1 БЛОК ШАПКА */
+.block__title {
+  font-size: 96px;
+  line-height: 96px;
+  z-index: 1;
+  margin-bottom: 37px;
+}
+.block__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+.block {
+  padding-top: 120px;
+  padding-left: 580px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0%;
+  font-family: "Arial";
+  font-style: normal;
+  color: #000000;
+}
+.header {
+  position: relative;
+  width: 1600px;
+  height: 768px;
+  left: 0px;
+  top: 0px;
+  background: #f3f4f6;
+}
+.header__logo {
+  position: absolute;
+  left: 65px;
+  right: 85%;
+  top: 35px;
+  bottom: 97.53%;
+  background-color: none;
+}
+.header__ballon {
+  position: absolute;
+  width: 398px;
+  height: 480px;
+  left: 64px;
+  top: 132px;
+  z-index: 1;
+  background: url(9bf232b4fb79227435a711f7da);
+}
+.header__circle {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  left: 64px;
+  top: 280px;
+  border-radius: 50%;
+  background: #ef4444;
+}
+.header__circle--big {
+  position: absolute;
+  width: 1196px;
+  height: 1196px;
+  left: 988px;
+  top: -598px;
+  border-radius: 50%;
+  background: #ef4444;
+}
+/*2 БЛОК О СТРАНЕ И КУЛЬТУРЕ */
+.content {
+  position: relative;
+  width: 1600px;
+  height: 756px;
+  left: 0px;
+  top: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  align-content: flex-start;
+}
+.container__row {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.container__subtitle {
+  width: 229px;
+  height: 24px;
+  padding-top: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #ef4444;
+}
+.container__title {
+  width: 640px;
+  height: 70px;
+  white-space: nowrap;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  margin-top: 10px;
+}
+.content__icon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 1220px;
+  top: -50px;
+  background: none;
+}
+.box__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 190px;
+}
+.box {
+  display: flex;
+}
+.box__item {
+  width: 290px;
+  height: 150px;
+  border: 4px solid none;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px;
+}
+.box__item h1 {
+  white-space: nowrap;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+/* 3 БЛОК КЕМАЛЬ */
+.article {
+  position: relative;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+  background: #f3f4f6;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.text__row {
+  margin-top: 90px;
+  margin-left: 170px;
+  font-family: "Arial";
+  font-style: normal;
+  white-space: pre;
+}
+.text__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  text-align: right;
+  color: #000000;
+  margin-bottom: 0;
+}
+.text__subtitile {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: right;
+  margin-bottom: 0;
+}
+.text__button {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  text-decoration-line: underline;
+  color: #ef4444;
+  margin-top: 0;
+  margin-left: 380px;
+}
+.article {
+  position: relative;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+  background: #f3f4f6;
+}
+.article__right {
+  position: absolute;
+  width: 24px;
+  height: 20px;
+  left: 697px;
+  top: 468px;
+  background: none;
+}
+.article__person {
+  position: absolute;
+  width: 562px;
+  height: 530px;
+  left: 774px;
+  top: 70px;
+  background: url(kisspng-mustafa-kemal-atatrk-antkabir-10th-of-november-atatuumlrk-5b3cf4239fad26.png);
+  z-index: 1;
+}
+.article__circle {
+  position: absolute;
+  width: 640px;
+  height: 640px;
+  left: 860px;
+  top: 150px;
+  border-radius: 50%;
+  background: #ef4444;
+}
+/* TOP TEN */
+.top {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.top__row {
+  margin-top: 50px;
+}
+.top__item {
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+.top__title {
+  width: 490px;
+  height: 144px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  text-align: center;
+  color: #f9fafb;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.top__subtitle {
+  width: 540px;
+  height: 32px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #f9fafb;
+}
+.section {
+  position: relative;
+  width: 1600px;
+  height: 920px;
+  left: 0px;
+  top: 0px;
+  background: #111827;
+}
+.list {
+  display: flex;
+}
+.list__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 135px;
+  margin-top: 30px;
+  text-align: center;
+  line-height: 170%;
+}
+.list__item {
+  width: 265px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  border: 5px solid none;
+  z-index: 1;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f9fafb;
+}
+.list__element h1 {
+  white-space: normal;
+  margin-bottom: 20px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #f9fafb;
+}
+.section__sqaure {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  left: 597px;
+  top: 550px;
+  background: #10b981;
+  transform: rotate(-45deg);
+}
+/* FOOTER */
+.footer {
+  position: relative;
+  width: 1600px;
+  height: 346px;
+  left: 0px;
+  top: 0px;
+  background: #9ca3af;
+}
+.footer__logo {
+  position: absolute;
+  left: 65px;
+  top: 45px;
+}
+.colums {
+  display: flex;
+  column-gap: 20px;
+}
+.news--first{
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-left: 1156px;
+  margin-top: 50px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  text-decoration: underline;
+  white-space: nowrap;
+  color: #f9fafb;
+}
+.news--second{
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-left: 40px;
+  margin-top: 50px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  text-decoration: underline;
+  white-space: nowrap;
+  color: #f9fafb;
+}
+.colums__title {
+  text-decoration: none;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+.about__row {
+
+}
+.about__content {
+  width: 1472px;
+  height: 2px;
+  background: rgba(249, 250, 251, 0.5);
+}
+.about__text {
+  width: 640px;
+  height: 72px;
+  left: 64px;
+  top: 80px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  /* margin-right: 0; */
+}
+.about__year {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #f9fafb;
+  white-space: nowrap;
 }
